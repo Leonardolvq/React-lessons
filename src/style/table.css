@@ -1,0 +1,15 @@
+th{
+    min-width: 200px;
+    text-transform: uppercase;
+}
+
+tr{
+    text-align: center;
+    line-height: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}

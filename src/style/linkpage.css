@@ -1,0 +1,41 @@
+:root{
+    --Cream--wheat: #hsl(​ 39.09°, ​ 76.74%, ​ 83.14%, 1)
+
+    ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+}
+
+.links__div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    gap: 15px;
+}
+
+.links__div a,
+.links__div a:visited{
+    color: var(--Cream--wheat);
+    text-decoration: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.links__div a,
+.links__title{
+    text-transform: uppercase;
+}
+
+
+.links__div a:hover{
+    color: blue;
+}
